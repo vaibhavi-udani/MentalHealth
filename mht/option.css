@@ -1,0 +1,149 @@
+body {
+    background-color: #D5D5D5;
+    margin-bottom: 10%;
+}
+
+.option1 {
+    background-image: url("https://images.pexels.com/photos/110473/pexels-photo-110473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100%;
+}
+
+.option2 {
+    background-image: url("https://images.pexels.com/photos/884450/pexels-photo-884450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100%;
+}
+
+.option3 {
+    background-image: url("https://images.pexels.com/photos/756861/pexels-photo-756861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100%;
+}
+
+.option4 {
+    background-image: url("https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=350");
+    background-size: 100%;
+}
+
+.option {
+    opacity: 0.7;
+    border-bottom: solid 1px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 0px;
+}
+
+div.option {
+    text-align: center;
+    letter-spacing: 1.5px;
+}
+
+.option:hover {
+    opacity: 1;
+}
+
+.optionx:hover {
+    opacity: 1;
+}
+
+.header {
+    z-index: 1;
+    position: relative;
+    margin-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: oxygen;
+    font-size: 35px;
+
+}
+
+p {
+    z-index: 1;
+    position: relative;
+    font-family: oxygen;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dash {
+    font-size: 35px;
+    margin-top: 20px;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+hr {
+    margin: 0px;
+    z-index: 1;
+    position: relative;
+}
+
+.slide1 {
+    position: absolute;
+    top: 40px;
+    left: 100%;
+    right: 0;
+    background-color: #B8B3AF;
+    overflow: hidden;
+    width: 0;
+    height: 50%;
+    transition: .5s ease;
+}
+
+.option1:hover .slide1 {
+    width: 100%;
+    left: 0;
+}
+
+.slide2 {
+    position: absolute;
+    top: 40px;
+    left: 100%;
+    right: 0;
+    background-color: #8B918F;
+    overflow: hidden;
+    width: 0;
+    height: 50%;
+    transition: .5s ease;
+}
+
+.option2:hover .slide2 {
+    width: 100%;
+    left: 0;
+}
+
+.slide3 {
+    position: absolute;
+    top: 40px;
+    left: 100%;
+    right: 0;
+    background-color: #96B7BE;
+    overflow: hidden;
+    width: 0;
+    height: 50%;
+    transition: .5s ease;
+}
+
+.option3:hover .slide3 {
+    width: 100%;
+    left: 0;
+}
+
+.slide4 {
+    position: absolute;
+    top: 40px;
+    left: 100%;
+    right: 0;
+    background-color: #979FAA;
+    overflow: hidden;
+    width: 0;
+    height: 50%;
+    transition: .5s ease;
+}
+
+.option4:hover .slide4 {
+    width: 100%;
+    left: 0;
+}

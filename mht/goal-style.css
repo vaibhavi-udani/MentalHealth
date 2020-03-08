@@ -1,0 +1,171 @@
+#daily-goals {
+  height: 450px;
+  padding-left: 5%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#st-goals {
+  height: 450px;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+#lt-goals {
+  height: 450px;
+  padding-left: 1%;
+  padding-right: 4%;
+  padding-bottom: 1%;
+  padding-top: 0;
+}
+
+.inner {
+  overflow: scroll;
+  background: rgba(255, 255, 255, 0.85);
+  height: 400px;
+  padding: 5%;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: url("https://images.pexels.com/photos/1667182/pexels-photo-1667182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    no-repeat fixed center;
+
+  font-family: oxygen;
+}
+
+.btn-circ-1 {
+  float: right;
+  background-color: #b3907d;
+  color: white;
+  border-radius: 50%;
+  bottom: 70px;
+  right: 7%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.btn-circ-3 {
+  float: right;
+  background-color: #c1b294;
+  color: white;
+  border-radius: 50%;
+  bottom: 70px;
+  right: 16%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+.btn-circ-2 {
+  float: right;
+  background-color: #94adb1;
+  color: white;
+  border-radius: 50%;
+  bottom: 70px;
+  right: 8%;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+}
+
+li {
+  font-size: 17px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+p {
+  float: right;
+  margin-right: 15px;
+  font-size: 12px;
+}
+
+.checkbox{
+  margin-top: 5px;
+  margin-left: 5%;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.checkmark {
+  margin-top: 5px;
+  margin-left: 15px;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.checkmark:hover {
+  border: 1px solid;
+  border-style: outset;
+}
+
+input {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.add-btn {
+  border: none;
+  color: white;
+  background: grey;
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+}
+
+.delete {
+  border: none;
+  color: black;
+  background: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 30px;
+  border-radius: 2px;
+}
+
+.delete:hover {
+  background: grey;
+  color: white;
+}
+
+.due-date {
+  position: relative;
+  width: 100%;
+  padding-left: 50px;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+
+
+input {
+  border: 0.5px solid gray;
+  padding-left: 5px;
+}
+
+.checkbox{
+  text-align: left;
+  padding-left: 10px;
+}

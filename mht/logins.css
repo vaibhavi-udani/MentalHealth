@@ -1,0 +1,70 @@
+body{
+   background-color: #6ed3cf;
+  background: url("https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat fixed center; 
+   margin-bottom: 10%;
+}
+
+form {
+   padding-top: 30px;
+}
+
+.title{
+  text-align:center;
+  color: white;
+  font-weight: 100;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom:10px;
+}
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+label{
+  font-size: 14px;
+  margin-left: 8px;
+  margin-top: 15px;
+}
+
+/* Set a style for all buttons */
+button {
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 35px 10px 10px 10px;
+}
+
+#login-bt {
+  background-color:#6F6F6E;
+  color: white;
+}
+
+#signUp-bt {
+  background-color:#96B7BE;
+  color: white;
+}
+
+#su-name {
+  
+  display: block;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Add padding to containers */
+.container {
+    width: 30%;
+   background: rgba(205, 210, 210, .8);
+  color: black;
+}

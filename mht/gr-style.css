@@ -1,0 +1,42 @@
+body{
+  padding-left: 8%;
+  padding-top: 5%;
+}
+
+.right-box{
+  padding-top:4%;
+  padding-left: 15%;
+  width: 30%;
+}
+
+.btn-style{
+  background:gray;
+  color: white;
+  margin: 5%;
+  width:150px;
+}
+
+.btn-style:hover{
+    opacity: 0.75;
+}
+
+.btn-style-bottom:hover{
+    opacity: 0.75;
+}
+
+.dropdown-style{
+  margin: 5%;
+  margin-top: 30%;
+  width:85%;
+  
+}
+
+.btn-style-bottom{
+  margin-top: 20%;
+  margin-left:5%;
+  width: 150px;
+  border-radius:0px;
+  height: 100px;
+  background:#6EA0E4;
+  color: white;
+}
